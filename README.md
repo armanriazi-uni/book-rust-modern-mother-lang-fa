@@ -3,9 +3,22 @@
 
 - [Licensed by Motekhassesan](./LICENSE.txt)
 
-- [Access to the book](https://www.motekhassesan.com/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87+%D9%86%D9%88%DB%8C%D8%B3%DB%8C+Rust&post_type=product&cat_id=)
+- [Access to the book on the Motekhassesan](https://www.motekhassesan.com/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87+%D9%86%D9%88%DB%8C%D8%B3%DB%8C+Rust&post_type=product&cat_id=)
+
+Published on the e-book websites:
+
+* https://fidibo.com/
+
+* https://digikala.com/
+
+* https://ketabrah.com/
+
 
 - Author: Arman Riazi, Isf, Aug 2024
+
+**https://www.motekhassesan.com/**
+
+
 
 ## How to Contribute
 Contributions are always welcome! Please use the following guidelines when contributing to `book-rust-modern-mother-lang-to-fa`.
@@ -32,3 +45,8 @@ Contributions are always welcome! Please use the following guidelines when contr
 6. `git rebase` into concise commits and remove `--fixup`s (`git rebase -i HEAD~NUM` where `NUM` is the number of commits back)
 7. Push your changes back to your fork (`git push origin $your-branch`)
 8. Create a pull request! (You can also create the pull request first, and we'll merge when ready. This a good way to discuss proposed changes.)
+
+Licensed By:
+**https://www.motekhassesan.com/**
+
+All material and intellectual rights of the work belong to **Arman Riazi** father name: Javad
