@@ -1,0 +1,9 @@
+[package]
+name = "master-rust-function_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "master-rust-function-main"
+path = "src/master-rust-function-main.rs"

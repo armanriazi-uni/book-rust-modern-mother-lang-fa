@@ -1,0 +1,11 @@
+[package]
+name = "rust-in-action-data-operator_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-data-parser-main"
+path = "src/rust-in-action-data-parser-main.rs"

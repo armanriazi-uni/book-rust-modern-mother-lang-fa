@@ -1,0 +1,11 @@
+[package]
+name = "easy-rust-smartpointer-ops_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "easy-rust-smartpointer-ops-main"
+path = "src/easy-rust-smartpointer-ops-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "rust-egg-trait-partialeq_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-egg-trait-partialeq-main"
+path = "src/rust-egg-trait-partialeq-main.rs"

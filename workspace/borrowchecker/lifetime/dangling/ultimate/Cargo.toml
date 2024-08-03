@@ -1,0 +1,10 @@
+[package]
+name = "ultimate-dangle_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "ultimate-dangling-main"
+path = "src/ultimate-dangling-main.rs"

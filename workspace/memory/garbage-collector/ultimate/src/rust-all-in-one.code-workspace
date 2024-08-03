@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		}
+	],
+	"settings": {
+		"rust-analyzer.linkedProjects": [
+			"./workspace/tests/test_integration/Cargo.toml"
+		]
+	}
+}

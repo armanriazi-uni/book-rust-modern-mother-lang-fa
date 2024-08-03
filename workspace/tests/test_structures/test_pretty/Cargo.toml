@@ -1,0 +1,14 @@
+[package]
+name = "pretty_test"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+pretty_assertions = "1.0.0"
+# pretty_assertions = { version= "...", default-features = false, features = ["alloc"] }
+
+[[bin]]
+doc = true
+name = "test_pretty-main"
+path = "src/test_pretty-main.rs"

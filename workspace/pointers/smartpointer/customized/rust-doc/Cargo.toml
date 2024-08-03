@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-customized-smart-pointer_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-customized-smart-pointer-main"
+path = "src/rust-doc-customized-smart-pointer-main.rs"

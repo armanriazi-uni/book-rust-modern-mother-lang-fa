@@ -1,0 +1,11 @@
+[package]
+name = "lpxxn-behavioral_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "lpxxn-behavioral-main"
+path = "src/lpxxn-behavioral-main.rs"

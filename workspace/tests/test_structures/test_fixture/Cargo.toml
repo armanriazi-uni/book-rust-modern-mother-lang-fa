@@ -1,0 +1,12 @@
+[package]
+name = "fixture_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rstest="0.18.1"
+
+[[bin]]
+doc = true
+name = "test_fixture-main"
+path = "src/test_fixture-main.rs"

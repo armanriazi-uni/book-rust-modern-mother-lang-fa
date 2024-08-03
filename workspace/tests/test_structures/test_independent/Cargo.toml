@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "test_independent"
+version = "0.1.0"
+
+
+
+[[test]]
+doc = true
+name = "integration_indep_test"
+path = "test/integration_indep_test.rs"
+test = true

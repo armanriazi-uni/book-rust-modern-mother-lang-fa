@@ -1,0 +1,15 @@
+[package]
+name = "proptest_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-traits = "0.2"
+
+[dev-dependencies]
+proptest="1.2.0"
+
+[[bin]]
+doc = true
+name = "main"
+path = "src/main.rs"

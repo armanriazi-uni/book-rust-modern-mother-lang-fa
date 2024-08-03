@@ -1,0 +1,12 @@
+[package]
+name = "packtpub-enum_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "packtpub-enum-main"
+path = "src/packtpub-enum-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "packtpub-file_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "packtpub-file-main"
+path = "src/packtpub-file-main.rs"

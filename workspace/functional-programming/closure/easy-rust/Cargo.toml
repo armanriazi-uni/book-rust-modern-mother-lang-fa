@@ -1,0 +1,9 @@
+[package]
+name = "easyrust-closure_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "easyrust-closure-main"
+path = "src/easyrust-closure-main.rs"

@@ -1,0 +1,12 @@
+[package]
+name = "rust-in-action-enum_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-enum-main"
+path = "src/rust-in-action-enum-main.rs"

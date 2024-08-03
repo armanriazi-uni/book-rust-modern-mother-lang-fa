@@ -1,0 +1,12 @@
+[package]
+name = "master-rust-union_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-union-main"
+path = "src/master-rust-union-main.rs"

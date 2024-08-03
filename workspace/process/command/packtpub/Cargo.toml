@@ -1,0 +1,10 @@
+[package]
+name = "packtpub-command_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "packtpub-command-main"
+path = "src/packtpub-command-main.rs"

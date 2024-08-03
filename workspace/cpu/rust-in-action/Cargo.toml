@@ -1,0 +1,11 @@
+[package]
+name = "rust-in-action-cpu_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-cpu-main"
+path = "src/rust-in-action-cpu-main.rs"

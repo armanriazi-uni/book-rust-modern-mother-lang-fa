@@ -1,0 +1,30 @@
+[package]
+name = "rust-features-language_bin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.english-linguistic-pkg]
+version = "0.1.0"
+optional = true
+default-features = false
+path = "english-linguistic-pkg"
+
+[dependencies.french-linguistic-pkg]
+version = "0.1.0"
+optional = true
+default-features = false
+path = "french-linguistic-pkg"
+
+[dependencies]
+"rand" = "*"
+
+[features]
+english = ["english-linguistic-pkg"]
+french = ["french-linguistic-pkg"]
+
+[[bin]]
+doc = false
+name = "feature-language-main.rs"
+path = "src/feature-language-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-option_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "rust-doc-option-main"
+path = "src/rust-doc-option-main.rs"

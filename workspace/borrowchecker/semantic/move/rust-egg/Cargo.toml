@@ -1,0 +1,11 @@
+[package]
+name = "rust-egg-semantic_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "rust-egg-semantic-main"
+path = "src/rust-egg-semantic-main.rs"

@@ -1,0 +1,15 @@
+[package]
+name = "code-like-pro-libc_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
+
+[[bin]]
+doc = true
+name = "code-like-pro-libc-main"
+path = "src/code-like-pro-libc-main.rs"

@@ -1,0 +1,12 @@
+[package]
+name = "master-rust-size_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-size-main"
+path = "src/master-rust-size-main.rs"

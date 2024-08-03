@@ -1,0 +1,10 @@
+[package]
+name = "master-rust-semantic_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "master-rust-semantic-main"
+path = "src/master-rust-semantic-main.rs"

@@ -1,0 +1,14 @@
+[package]
+name = "other-convert-into_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[dependencies]
+num="0.4.0"
+
+[[bin]]
+doc = true
+name = "other-convert-into-main"
+path = "src/other-convert-into-main.rs"

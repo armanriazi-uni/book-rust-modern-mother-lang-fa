@@ -1,0 +1,11 @@
+[package]
+name = "other-rc_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "other-rc-main"
+path = "src/other-rc-main.rs"

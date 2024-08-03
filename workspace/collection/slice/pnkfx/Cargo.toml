@@ -1,0 +1,11 @@
+[package]
+name = "pnkfx-slice_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "pnkfx-slice-main"
+path = "src/pnkfx-slice-main.rs"

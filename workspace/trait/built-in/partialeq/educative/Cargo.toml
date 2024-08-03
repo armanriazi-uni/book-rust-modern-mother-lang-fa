@@ -1,0 +1,11 @@
+[package]
+name = "educative-built-in-trait_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "educative-built-in-trait-main"
+path = "src/educative-built-in-trait-main.rs"

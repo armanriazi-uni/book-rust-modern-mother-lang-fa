@@ -1,0 +1,9 @@
+[package]
+name = "master_rust_operator_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "master-rust-operator-main"
+path = "src/master-rust-operator-main.rs"

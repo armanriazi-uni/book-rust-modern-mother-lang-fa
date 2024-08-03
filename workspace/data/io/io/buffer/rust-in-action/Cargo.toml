@@ -1,0 +1,10 @@
+[package]
+name = "rust-in-action-io-buffer_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-io-buffer-main"
+path = "src/rust-in-action-io-buffer-main.rs"

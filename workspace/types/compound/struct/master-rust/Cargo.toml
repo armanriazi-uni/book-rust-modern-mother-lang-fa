@@ -1,0 +1,12 @@
+[package]
+name = "master-rust-struct_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-struct-main"
+path = "src/master-rust-struct-main.rs"

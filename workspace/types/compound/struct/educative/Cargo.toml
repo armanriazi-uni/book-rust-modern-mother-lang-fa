@@ -1,0 +1,13 @@
+[package]
+name = "educative-struct_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[dependencies]
+proptest="1.0.0"
+
+[[bin]]
+doc = true
+name = "educative-struct-main"
+path = "src/educative-struct-main.rs"

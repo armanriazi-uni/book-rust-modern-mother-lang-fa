@@ -1,0 +1,10 @@
+[package]
+name = "packtpub-struct_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "packtpub-struct-main"
+path = "src/packtpub-struct-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-arithmetic_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-arithmetic-main"
+path = "src/master-rust-arithmetic-main.rs"

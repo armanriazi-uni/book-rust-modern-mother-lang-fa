@@ -1,0 +1,11 @@
+[package]
+name = "rust-egg-slice_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-egg-slice-main"
+path = "src/rust-egg-slice-main.rs"

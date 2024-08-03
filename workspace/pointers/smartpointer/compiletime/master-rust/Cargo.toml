@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-drop_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-drop-main"
+path = "src/master-rust-drop-main.rs"

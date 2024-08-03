@@ -1,0 +1,21 @@
+[package]
+edition = "2021"
+name = "test_binary"
+version = "0.1.0"
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+assert_cmd = "*"
+
+[[bin]]
+doc = false
+name = "test_binary-main"
+path = "src/test_binary-main.rs"
+
+[[test]]
+doc = true
+name = "test_binary-main"
+path = "tests/test_binary-main.rs"
+test = true

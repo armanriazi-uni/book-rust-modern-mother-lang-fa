@@ -1,0 +1,14 @@
+[package]
+name = "criterion_doc_benches_criterion_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3.0"
+
+# it does not use the built-in benchmark harness (harness = false), since we are using the criterion crate's test harness.
+[[bench]]
+name = "fibonacci"
+harness = false

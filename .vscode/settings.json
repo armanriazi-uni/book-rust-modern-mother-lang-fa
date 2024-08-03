@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./workspace/tests/test_integration/Cargo.toml"
+    ]
+}

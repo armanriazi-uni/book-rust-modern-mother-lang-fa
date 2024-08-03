@@ -1,0 +1,11 @@
+[package]
+name = "packtpub-io-pipe_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "packtpub-io-pipe-main"
+path = "src/packtpub-io-pipe-main.rs"

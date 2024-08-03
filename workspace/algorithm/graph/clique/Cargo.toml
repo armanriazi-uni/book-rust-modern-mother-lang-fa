@@ -1,0 +1,11 @@
+[package]
+name = "algo_graph_clique_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "algo-graph-clique-main"
+path = "src/algo-graph-clique-main.rs"

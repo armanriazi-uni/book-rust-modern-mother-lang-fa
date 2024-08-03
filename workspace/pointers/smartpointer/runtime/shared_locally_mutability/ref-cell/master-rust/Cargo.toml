@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-smartpointer-ref-cell_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-smartpointer-ref-cell-main"
+path = "src/master-rust-smartpointer-ref-cell-main.rs"

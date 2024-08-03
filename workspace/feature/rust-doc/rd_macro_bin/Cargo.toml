@@ -1,0 +1,13 @@
+[package]
+name = "rd-macro-feature_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+features = "0.10.0"
+bitflags="2.4.0"
+
+[[bin]]
+doc = true
+name = "rd-macro-feature-main"
+path = "src/rd-macro-feature-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "packtpub-linkedlist_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "packtpub-linkedlist-main"
+path = "src/packtpub-linkedlist-main.rs"

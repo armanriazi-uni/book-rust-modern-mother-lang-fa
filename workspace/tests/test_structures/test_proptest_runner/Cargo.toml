@@ -1,0 +1,12 @@
+[package]
+name = "proptest_runner_test"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+proptest="1.2.0"
+
+[[bin]]
+doc = true
+name = "test_proptest-runner-main"
+path = "src/test_proptest-runner-main.rs"

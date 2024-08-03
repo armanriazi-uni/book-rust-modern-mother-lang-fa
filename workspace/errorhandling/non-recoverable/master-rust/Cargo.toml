@@ -1,0 +1,12 @@
+[package]
+name = "master-rust-error-panic_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-error-panic-main"
+path = "src/master-rust-error-panic-main.rs"

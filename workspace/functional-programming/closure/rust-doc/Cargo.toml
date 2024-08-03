@@ -1,0 +1,9 @@
+[package]
+name = "rust-doc-closure_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "rust-doc-closure-main"
+path = "src/rust-doc-closure-main.rs"

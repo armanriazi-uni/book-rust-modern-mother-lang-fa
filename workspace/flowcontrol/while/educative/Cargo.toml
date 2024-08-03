@@ -1,0 +1,12 @@
+[package]
+name = "educative-while_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "educative-while-main"
+path = "src/educative-while-main.rs"

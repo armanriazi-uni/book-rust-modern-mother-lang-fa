@@ -1,0 +1,11 @@
+[package]
+name = "code-like-pro-cow_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "code-like-pro-cow-main"
+path = "src/code-like-pro-cow-main.rs"

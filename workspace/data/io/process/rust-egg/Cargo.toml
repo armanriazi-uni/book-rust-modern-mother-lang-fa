@@ -1,0 +1,13 @@
+[package]
+name = "rust-egg-io-process_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+regex="1.7.0"
+
+[[bin]]
+doc = true
+name = "rust-egg-io-process-main"
+path = "src/rust-egg-io-process-main.rs"

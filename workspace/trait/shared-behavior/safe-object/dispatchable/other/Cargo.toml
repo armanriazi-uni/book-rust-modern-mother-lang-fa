@@ -1,0 +1,11 @@
+[package]
+name = "other-trait-dispatchable_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "other-trait-dispatchable-main"
+path = "src/other-trait-dispatchable-main.rs"

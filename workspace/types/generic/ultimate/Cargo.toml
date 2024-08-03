@@ -1,0 +1,11 @@
+[package]
+name = "ultimate-generic_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "ultimate-generic-main"
+path = "src/ultimate-generic-main.rs"

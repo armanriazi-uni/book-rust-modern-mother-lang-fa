@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-slice_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-slice-main"
+path = "src/master-rust-slice-main.rs"

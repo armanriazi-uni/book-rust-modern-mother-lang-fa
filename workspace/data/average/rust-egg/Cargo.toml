@@ -1,0 +1,10 @@
+[package]
+name = "rust-egg-average_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "rust-egg-average-main"
+path = "src/rust-egg-average-main.rs"

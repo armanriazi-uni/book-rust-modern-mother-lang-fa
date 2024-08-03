@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-trait-dispatchable_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-trait-dispatchable-main"
+path = "src/rust-doc-trait-dispatchable-main.rs"

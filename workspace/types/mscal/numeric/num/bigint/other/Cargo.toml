@@ -1,0 +1,14 @@
+[package]
+name = "other-bigint_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[dependencies]
+num="0.4.0"
+
+[[bin]]
+doc = true
+name = "other-bigint-main"
+path = "src/other-bigint-main.rs"

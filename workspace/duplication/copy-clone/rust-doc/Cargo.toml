@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-duplication_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-duplication-main"
+path = "src/rust-doc-duplication-main.rs"

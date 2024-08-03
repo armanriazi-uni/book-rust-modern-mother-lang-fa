@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-linkedlist_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-linkedlist-main"
+path = "src/rust-doc-linkedlist-main.rs"

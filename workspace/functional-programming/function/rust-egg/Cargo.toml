@@ -1,0 +1,9 @@
+[package]
+name = "rust-egg-function_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "rust-egg-function-main"
+path = "src/rust-egg-function-main.rs"

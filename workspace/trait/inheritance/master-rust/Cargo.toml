@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-trait-inheritance_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-trait-inheritance-main"
+path = "src/master-rust-trait-inheritance-main.rs"

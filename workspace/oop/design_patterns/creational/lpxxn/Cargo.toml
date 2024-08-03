@@ -1,0 +1,11 @@
+[package]
+name = "lpxxn-creational_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "lpxxn-creational-main"
+path = "src/lpxxn-creational-main.rs"

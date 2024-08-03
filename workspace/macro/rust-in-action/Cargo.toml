@@ -1,0 +1,10 @@
+[package]
+name = "rust-in-action-macro_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-macro-main"
+path = "src/rust-in-action-macro-main.rs"

@@ -1,0 +1,12 @@
+[package]
+name = "rd_carg_metadata_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cargo_metadata = "0.17.0"
+
+[[bin]]
+doc = true
+name = "rd-carg-metadata-main"
+path = "src/rd-carg-metadata-main.rs"

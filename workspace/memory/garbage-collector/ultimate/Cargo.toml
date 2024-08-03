@@ -1,0 +1,11 @@
+[package]
+name = "ultimate-garbage-collector_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "ultimate-garbage-collector-main"
+path = "src/ultimate-garbage-collector-main.rs"

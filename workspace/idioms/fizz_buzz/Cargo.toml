@@ -1,0 +1,10 @@
+[package]
+name = "idioms-other-fizz-buzz_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "idioms-other-fizz-buzz-main"
+path = "src/idioms-other-fizz-buzz-main.rs"

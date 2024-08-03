@@ -1,0 +1,12 @@
+[package]
+name = "code-like-pro-hashmap_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+metrohash="1.0"
+
+[[bin]]
+doc = true
+name = "code-like-pro-hashmap-main"
+path = "src/code-like-pro-hashmap-main.rs"

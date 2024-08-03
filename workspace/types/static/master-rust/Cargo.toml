@@ -1,0 +1,13 @@
+[package]
+name = "master-rust-types-static_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[dependencies]
+num="0.4.0"
+
+[[bin]]
+doc = true
+name = "master-rust-types-static-main"
+path = "src/master-rust-types-static-main.rs"

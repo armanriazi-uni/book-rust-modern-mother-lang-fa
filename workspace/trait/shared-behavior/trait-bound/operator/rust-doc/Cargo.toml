@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-trait-bound-operator_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-trait-bound-operator-main"
+path = "src/rust-doc-trait-bound-operator-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "code-like-pro-slice_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "code-like-pro-slice-main"
+path = "src/code-like-pro-slice-main.rs"

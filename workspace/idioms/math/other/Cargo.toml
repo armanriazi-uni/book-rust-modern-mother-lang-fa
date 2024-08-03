@@ -1,0 +1,10 @@
+[package]
+name = "other-math-max_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "other-math-main"
+path = "src/other-math-main.rs"

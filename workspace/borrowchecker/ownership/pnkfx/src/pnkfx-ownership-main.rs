@@ -1,0 +1,82 @@
+#![allow(dead_code, unused_variables)]
+
+/// Main
+///
+/// ## Commands
+///
+/// ```cargo run -q -p pnkfx-ownership_bin --bin pnkfx-ownership-main```
+///
+/// ```cargo doc  --package pnkfx-ownership_bin --message-format short --no-deps --open --color always```
+///
+/// ```cargo test --doc  --package pnkfx-ownership_bin```
+///
+/// ## What
+/// `Ownership and references`
+///
+/// ## How
+/// Box<Thing> behaves very differently from `Thing` and `&Thing`.
+///
+/// A detail we've been avoiding due to something special with `Thing`.
+///
+/// But it is *not* something special about `Box`; it is *Thing* that
+/// is special; discuss.
+/// EXERCISE: add a new function, `increment_count`, that takes a
+/// `Thing` and adds 1 to its count field in a way that the *caller*
+/// can observe.
+
+///
+/// # Arguments
+///
+/// * `Arg1` - This is the [your type] to [your verb] the [your struct/func name]
+///
+/// # Return
+/// `nothing`
+///
+/// ## Example
+
+#[derive(Copy, Clone)]
+struct Thing {
+    label: char,
+    count: i32,
+}
+
+fn print_thing_val(x: Thing) {
+    // (This is the same code we were looking at before.)
+    println!("the count of {} is {}", x.label, x.count);
+}
+
+fn print_thing_ref(x: &Thing) {
+    //                ^~ this is a "reference type constructor"
+    //                   `&T` is pronounced "(shared) reference to T"
+    println!("the count of `{}` is {}", x.label, x.count);
+
+    let Thing { label, count } = *x;
+    println!("another way to bind (`{}` still {})", label, count);
+
+    let &Thing { label, count } = x;
+    println!("even &pat is a pattern (and `{}` still {})", label, count);
+}
+
+fn print_thing_box(x: Box<Thing>) {
+    //                      ^~~ This is another type constructor
+    //                          (One of many library-provided "smart-pointers")
+    //                          `Box<T>` is pronounced "boxed T"
+    println!("the count of {} is {}", x.label, x.count);
+}
+
+pub fn main() {
+    // stack-allocated, as before
+    let t1 = Thing { label: 'a', count: 5 };
+
+    // These two calls have the same side-effects ...
+    print_thing_val(t1);
+    print_thing_ref(&t1);
+    // ... but they do their work in very diferrent ways.
+
+    // *heap*-allocated Thing
+    let t2 = Box::new(Thing { label: 'b', count: 4 });
+    print_thing_box(t2);
+
+    // EXERCISE: Add code below here to print both `t1` and `t2`
+    // again.  Discuss.
+}

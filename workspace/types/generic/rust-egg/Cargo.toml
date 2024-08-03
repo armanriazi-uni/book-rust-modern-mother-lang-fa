@@ -1,0 +1,11 @@
+[package]
+name = "rust-egg-types-generic_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "rust-egg-types-generic-main"
+path = "src/rust-egg-types-generic-main.rs"

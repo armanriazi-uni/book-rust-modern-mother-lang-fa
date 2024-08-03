@@ -1,0 +1,10 @@
+[package]
+name = "other-benches_lib"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+doc = true
+name = "other-benches-main"
+path = "src/other-benches-main.rs"

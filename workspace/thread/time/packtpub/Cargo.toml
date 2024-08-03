@@ -1,0 +1,10 @@
+[package]
+name = "packtpub-thread-time_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "packtpub-thread-time-main"
+path = "src/packtpub-thread-time-main.rs"

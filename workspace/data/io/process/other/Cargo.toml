@@ -1,0 +1,10 @@
+[package]
+name = "other-io-process_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+doc = true
+name = "other-io-process-main"
+path = "src/other-io-process-main.rs"

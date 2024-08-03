@@ -1,0 +1,14 @@
+[package]
+name = "packtpub-btree_lib"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[dependencies]
+# money_typesafe = {path = "../../day2/ass_10/"}
+
+[[bin]]
+doc = true
+name = "packtpub-btree-main"
+path = "src/packtpub-btree-main.rs"

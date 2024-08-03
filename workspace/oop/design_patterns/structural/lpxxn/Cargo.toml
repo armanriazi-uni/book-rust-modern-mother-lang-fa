@@ -1,0 +1,11 @@
+[package]
+name = "lpxxn-structural_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "lpxxn-structural-main"
+path = "src/lpxxn-structural-main.rs"

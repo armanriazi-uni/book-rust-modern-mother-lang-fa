@@ -1,0 +1,10 @@
+[package]
+name = "packtpub-thread-pool_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "packtpub-thread-pool-main"
+path = "src/packtpub-thread-pool-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "rust-egg-behavioral-process_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-egg-behavioral-process-main"
+path = "src/rust-egg-behavioral-process-main.rs"

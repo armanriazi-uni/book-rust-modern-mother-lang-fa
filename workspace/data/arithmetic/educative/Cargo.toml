@@ -1,0 +1,11 @@
+[package]
+name = "eduactive-arithmetic_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "eduactive-arithmetic-main"
+path = "src/eduactive-arithmetic-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "ultimate-overflow_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "ultimate-overflow-main"
+path = "src/ultimate-overflow-main.rs"

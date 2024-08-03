@@ -1,0 +1,11 @@
+[package]
+name = "educative-duplication_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "educative-duplication-main"
+path = "src/educative-duplication-main.rs"

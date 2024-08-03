@@ -1,0 +1,14 @@
+[package]
+name = "rust-doc-thread-sharedstate_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[dependencies]
+rand = "0.5.5"
+
+[[bin]]
+doc = true
+name = "rust-doc-thread-sharedstate-main"
+path = "src/rust-doc-thread-sharedstate-main.rs"

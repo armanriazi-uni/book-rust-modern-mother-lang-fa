@@ -1,0 +1,14 @@
+[package]
+name = "rust-doc-convert-doc_from_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[dependencies]
+num="0.4.0"
+
+[[bin]]
+doc = true
+name = "rust-doc-convert-from-main"
+path = "src/rust-doc-convert-from-main.rs"

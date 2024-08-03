@@ -1,0 +1,10 @@
+[package]
+name = "master-rust-loop-flowcontrol_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "master-rust-loop-flowcontrol-main"
+path = "src/master-rust-loop-flowcontrol-main.rs"

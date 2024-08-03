@@ -1,0 +1,11 @@
+[package]
+name = "educative-hashmap_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "educative-hashmap-main"
+path = "src/educative-hashmap-main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-smartpointer-arc_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-smartpointer-arc-main"
+path = "src/rust-doc-smartpointer-arc-main.rs"

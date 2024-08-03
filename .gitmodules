@@ -1,0 +1,5 @@
+
+[submodule "armanriazi-uni/book-rust-modern-mother-lang-to-fa-2022-archived"]
+	path = armanriazi-uni/book-rust-modern-mother-lang-to-fa-2022-archived
+	url = https://github.com/armanriazi-uni/book-rust-modern-mother-lang-to-fa-2022-archived.git
+	shallow = true

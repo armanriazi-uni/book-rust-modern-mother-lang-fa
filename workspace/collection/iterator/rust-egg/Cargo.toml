@@ -1,0 +1,11 @@
+[package]
+name = "rust-egg-iterator_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-egg-iterator-main"
+path = "src/rust-egg-iterator-main.rs"

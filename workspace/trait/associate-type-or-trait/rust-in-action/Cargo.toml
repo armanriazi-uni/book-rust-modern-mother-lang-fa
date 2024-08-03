@@ -1,0 +1,11 @@
+[package]
+name = "rust-in-action-trait-associate-type-and-trait_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "ria-trait-associate-type-and-trait-main"
+path = "src/ria-trait-associate-type-and-trait-main.rs"

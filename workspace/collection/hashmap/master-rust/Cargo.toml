@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-hashmap_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-hashmap-main"
+path = "src/master-rust-hashmap-main.rs"

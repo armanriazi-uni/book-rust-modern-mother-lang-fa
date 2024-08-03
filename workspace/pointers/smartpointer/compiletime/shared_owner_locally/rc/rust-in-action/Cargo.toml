@@ -1,0 +1,11 @@
+[package]
+name = "rust-in-action-rc_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-rc-main"
+path = "src/rust-in-action-rc-main.rs"

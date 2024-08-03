@@ -1,0 +1,18 @@
+[package]
+edition = "2021"
+name = "test_integration"
+version = "0.1.0"
+
+
+
+[lib]
+doc = true
+name = "lib"
+path = "src/lib.rs"
+test = true
+
+[[test]]
+doc = true
+name = "test"
+path = "test/car.rs"
+test = true

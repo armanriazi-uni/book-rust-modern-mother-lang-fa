@@ -1,0 +1,11 @@
+[package]
+name = "master-rust-trait-bound_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "master-rust-trait-bound-main"
+path = "src/master-rust-trait-bound-main.rs"

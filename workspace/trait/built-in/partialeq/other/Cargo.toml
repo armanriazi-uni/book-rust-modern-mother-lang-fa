@@ -1,0 +1,11 @@
+[package]
+name = "other-option_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[[bin]]
+doc = true
+name = "other-option-main"
+path = "src/other-option-main.rs"

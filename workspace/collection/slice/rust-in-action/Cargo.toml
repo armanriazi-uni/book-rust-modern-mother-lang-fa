@@ -1,0 +1,11 @@
+[package]
+name = "rust-in-action-slice_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-in-action-slice-main"
+path = "src/rust-in-action-slice-main.rs"

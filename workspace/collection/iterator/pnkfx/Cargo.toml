@@ -1,0 +1,11 @@
+[package]
+name = "pnkfx-iterator_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "pnkfx-iterator-main"
+path = "src/pnkfx-iterator-main.rs"

@@ -1,0 +1,10 @@
+[package]
+name = "educative-factorial_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "educative-factorial-main"
+path = "src/educative-factorial-main.rs"

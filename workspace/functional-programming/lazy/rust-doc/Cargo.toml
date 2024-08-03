@@ -1,0 +1,15 @@
+[package]
+name = "rust-doc-lazy_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+lazy_static = "1.4.0"
+log = { version = "0.4", features = ["std", "serde"] }
+env_logger = "0.9.0"
+
+[[bin]]
+doc = true
+name = "rust-doc-lazy-main"
+path = "src/rust-doc-lazy-main.rs"

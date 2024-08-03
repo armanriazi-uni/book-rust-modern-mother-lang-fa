@@ -1,0 +1,11 @@
+[package]
+name = "rust-doc-non-objectsafe_bin"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[[bin]]
+doc = true
+name = "rust-doc-non-objectsafe-main"
+path = "src/rust-doc-non-objectsafe-main.rs"

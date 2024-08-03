@@ -1,0 +1,10 @@
+[package]
+name = "grammer-dtolnay_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "grammer-dtolnay-main"
+path = "src/grammer-dtolnay-main.rs"

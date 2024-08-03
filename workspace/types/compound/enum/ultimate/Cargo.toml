@@ -1,0 +1,12 @@
+[package]
+name = "ultimate-pattern-matching_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+
+[[bin]]
+doc = true
+name = "ultimate-pattern-matching-main"
+path = "src/ultimate-pattern-matching-main.rs"

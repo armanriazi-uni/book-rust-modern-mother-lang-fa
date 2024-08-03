@@ -1,0 +1,9 @@
+[package]
+name = "rust-doc-expression_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "rust-doc-expression-main"
+path = "src/rust-doc-expression-main.rs"

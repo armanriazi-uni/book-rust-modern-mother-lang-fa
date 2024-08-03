@@ -1,0 +1,9 @@
+[package]
+name = "educative-vec-collection_bin"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+doc = true
+name = "educative-vec-collection-main"
+path = "src/educative-vec-collection-main.rs"

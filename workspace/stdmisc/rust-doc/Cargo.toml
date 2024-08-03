@@ -1,0 +1,10 @@
+[package]
+name = "rust_doc_std_bin"
+version = "0.1.0"
+edition = "2021"
+# autobins = true
+
+[[bin]]
+doc = true
+name = "rust-doc-std-thread-main"
+path = "src/rust-doc-std-thread-main.rs"

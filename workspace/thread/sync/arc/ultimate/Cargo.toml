@@ -1,0 +1,10 @@
+[package]
+name = "ultimate-sync-arc_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[[bin]]
+doc = true
+name = "ultimate-sync-main"
+path = "src/ultimate-sync-main.rs"

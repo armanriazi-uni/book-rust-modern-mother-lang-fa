@@ -1,0 +1,13 @@
+[package]
+name = "rust-doc-thread-rayon_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+[dependencies]
+rayon = "1.0.0"
+
+[[bin]]
+doc = true
+name = "rust-doc-thread-rayon-main"
+path = "src/rust-doc-thread-rayon-main.rs"

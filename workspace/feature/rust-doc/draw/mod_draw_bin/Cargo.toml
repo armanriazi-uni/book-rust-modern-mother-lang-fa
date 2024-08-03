@@ -1,0 +1,24 @@
+[package]
+name = "mod_draw_bin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rgb = { version = "0.8.25", features = ["serde"], optional = false , default-features = true}
+#mod_draw_lib = { path = "../mod_draw_lib", features = ["shapes"], optional = true , default-features = true}
+mod_draw_lib = { path = "../mod_draw_lib", optional = true ,default-features = true}
+[features]
+# Enables shapes support by enabling the "shapes" feature of mod_draw_lib.
+shapes = ["mod_draw_lib/shapes"]
+# color = ["mod_draw_lib?/color"]
+
+[[bin]]
+doc = true
+name = "mod-draw-main"
+path = "src/mod-draw-main.rs"
+
+[lib]
+name = "mod_draw_lib"
+path = "../mod_draw_lib/src/lib.rs"

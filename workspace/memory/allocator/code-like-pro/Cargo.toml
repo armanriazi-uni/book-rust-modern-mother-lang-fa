@@ -1,0 +1,16 @@
+[package]
+name = "code-like-pro-allocator_bin"
+version = "0.1.0"
+edition = "2021"
+autobins = true
+
+
+[dependencies]
+lazy_static = "1"
+libc = "0.2"
+
+
+[[bin]]
+doc = true
+name = "code-like-pro-allocator-main"
+path = "src/code-like-pro-allocator-main.rs"
